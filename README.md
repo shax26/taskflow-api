@@ -150,7 +150,8 @@ http://localhost:5000/api
 ```json
 {
   "title": "Design schema",
-  "task": "taskId"
+  "task": "taskId",
+  "createdBy": "userId"
 }
 ```
 
