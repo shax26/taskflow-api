@@ -86,10 +86,15 @@ http://localhost:5000/api
 
 ```json
 {
-  "name": "Project Alpha",
-  "description": "Description...",
-  "owner": "userId",
-  "team": ["userId1", "userId2"]
+  "name": "Project Alpha",              // Required: Project name
+  "description": "Description...",      // Optional: Project description
+  "owner": "userId",                    // Required: Owner user ID
+  "team": ["userId1", "userId2"],      // Optional: Array of team member user IDs
+  "color": "red",                      // Optional: Project color (default: "red")
+  "status": "active",                  // Optional: Project status (default: "active")
+  "priority": "medium",                // Optional: Project priority (default: "medium")
+  "startDate": "2025-07-25T00:00:00.000Z", // Optional: Project start date (ISO string)
+  "dueDate": "2025-08-25T00:00:00.000Z"    // Optional: Project due date (ISO string)
 }
 ```
 
