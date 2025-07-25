@@ -1,10 +1,10 @@
-# 📘 Task Manager SaaS App - Developer API Documentation
+# TaskFlow - Developer API Documentation
 
-Welcome to the **Task Manager SaaS App API** documentation. This guide provides all the information needed to interact with the backend services, covering authentication, user management, projects, tasks, comments, subtasks, and notifications.
+Welcome to the **TaskFlow API** documentation. This guide provides all the information needed to interact with the backend services, covering authentication, user management, projects, tasks, comments, subtasks, and notifications.
 
 ---
 
-## 🌐 Base URL
+## Base URL
 
 ```
 http://localhost:5000/api
@@ -12,7 +12,7 @@ http://localhost:5000/api
 
 ---
 
-## 🔐 Authentication & Authorization
+## Authentication & Authorization
 
 ### Register
 
@@ -78,7 +78,7 @@ http://localhost:5000/api
 
 ---
 
-## 📁 Projects
+## Projects
 
 ### Create Project
 
@@ -111,7 +111,7 @@ http://localhost:5000/api
 
 ---
 
-## ✅ Tasks
+## Tasks
 
 ### Create Task
 
@@ -141,7 +141,7 @@ http://localhost:5000/api
 
 ---
 
-## 🧩 Subtasks
+## Subtasks
 
 ### Create Subtask
 
@@ -169,7 +169,7 @@ http://localhost:5000/api
 
 ---
 
-## 💬 Comments
+## Comments
 
 ### Create Comment
 
@@ -192,7 +192,7 @@ http://localhost:5000/api
 
 ---
 
-## 🔔 Notifications
+## Notifications
 
 ### Create Notification
 
@@ -219,7 +219,7 @@ http://localhost:5000/api
 
 ---
 
-## 🛡️ Middleware & Auth
+## Middleware & Auth
 
 - `protect`: Middleware to check authentication
 - `restrictTo(...roles)`: Role-based access control
@@ -227,7 +227,7 @@ http://localhost:5000/api
 
 ---
 
-## 🧪 Testing
+## Testing
 
 You can test endpoints using tools like:
 
@@ -235,37 +235,10 @@ You can test endpoints using tools like:
 - Thunder Client (VSCode extension)
 - cURL
 
----
 
-## 📂 Folder Structure (Key Parts)
-
-```
-├── controllers/
-├── routes/
-├── models/
-├── middleware/
-├── validators/
-├── app.js
-└── .env
-```
-
----
-
-## 📦 Dependencies
-
-- `express`
-- `mongoose`
-- `jsonwebtoken`
-- `bcryptjs`
-- `cookie-parser`
-- `express-validator`
-- `multer`
-
----
-
-## ✨ Final Note
+## Final Note
 
 This documentation will help you integrate or contribute to the Task Manager SaaS App API. For any issue, contact the maintainer or raise an issue in the repository.
 
-Happy Coding! 🚀
+Happy Coding!
 
