@@ -56,7 +56,7 @@ http://localhost:5000/api
 
 ---
 
-## 👤 User Management
+##  User Management
 
 ### Get All Users
 
